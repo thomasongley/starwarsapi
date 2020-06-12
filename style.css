@@ -1,0 +1,42 @@
+input.overridecss {
+  background-color: ButtonFace;
+  color:ButtonText;
+}
+
+body {
+  background-color: black;
+  color: yellow;
+  display: flex;
+  flex-direction: column;
+/*  text-align: center;*/
+  align-items: : center;
+  justify-content: center;
+}
+
+#title {
+  text-align: center;
+}
+
+.container {
+  border: 3px solid yellow;
+  min-width: 700px;
+  height: 250px;
+  padding: 20px;
+  min-height: 300px;
+  border-radius: 7px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+#button {
+  border-radius: 7px;
+  background-color: gray;
+  color: black;
+  min-width: 50px;
+  height: 40px;
+  margin: 0 auto;
+  border: 0px;
+}
